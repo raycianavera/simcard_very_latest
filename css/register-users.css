@@ -96,6 +96,12 @@ h2 {
   margin-top: 2rem;
 }
 
+
+/* NSO BUTTON */
+.nsobutton{
+  width: 50%!important;
+}
+
 .labelings {
   margin-top: 1rem;
 }
@@ -144,6 +150,11 @@ h2 {
     margin-right: 0rem;
     font-size: 15px;
   }
+
+  .nsobutton {
+    width: 110%!important;
+}
+
 }
 
 @media only screen and (max-width: 380px) {
@@ -203,4 +214,9 @@ h2 {
   .form-control {
     font-size: 10px;
   }
+
+  .nsobutton {
+    width: 115%!important;
+}
+
 }
