@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/userlogin.css">
   <!-- FONT AWESOME -->
   <script src="https://kit.fontawesome.com/207a28b81e.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -34,9 +35,9 @@
         <!--COL 2 LOGIN FORM-->
         <div class="title-log">
           <p class="userlogtext">ENTER OTP</p>
-          <form class="" action="user-profile.html" method="post">
+          <form class="" id="form">
             <div class="mobnum">
-              <input type="text" name="" value="" id="otpnum" class="form-control" placeholder="Enter the OTP sent to your mobile number" required>
+              <input type="text" name="otpName" value="" id="otpnum" class="form-control" placeholder="Enter the OTP sent to your mobile number" required>
             </div>
             <div class="mes">
 
@@ -64,13 +65,7 @@
 
 
     </div>
-
-
-
-
-
-
-
+<script src="./js/Otp.js"></script>
 </body>
 
 </html>

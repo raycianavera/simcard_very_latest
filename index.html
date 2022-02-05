@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="css/userlogin.css">
   <!-- FONT AWESOME -->
   <script src="https://kit.fontawesome.com/207a28b81e.js" crossorigin="anonymous"></script>
+  <!-- http client -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -34,9 +36,9 @@
         <!--COL 2 LOGIN FORM-->
         <div class="title-log">
           <p class="userlogtext">USER LOGIN</p>
-          <form class="" id="form" action="enter-otp.html" method="post">
+          <form class="" id="form" >
             <div class="mobnum">
-              <input type="tel" name="" value="" id="userMobileNum" class="form-control" placeholder="Mobile Number" required pattern="[0-9]{11}" title="Write an 11-digit number ex: 09175901234">
+              <input type="tel" name="userMobileNo" value="" id="userMobileNum" class="form-control" placeholder="Mobile Number">
 
             </div>
 
@@ -63,12 +65,6 @@
 
 
     </div>
-
-
-
-
-
-
-
+    <script src="./js/requestOtp.js"></script>
 </body>
 </html>
